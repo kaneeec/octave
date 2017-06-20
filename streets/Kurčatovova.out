@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="cs" class="no-js">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8" />
+	<title>Jihoměstské reality</title>
+	
+	<meta name="robots" content="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.min.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="css/print.min.css" />
+	
+	<link rel="shortcut icon" href="images/ico/favicon.ico" />
+	<link rel="apple-touch-icon-precomposed" href="images/ico/touch-icon.png" />
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-79424390-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+
+</head>
+<body id="homepage">
+
+<div id="header">
+	<div class="section main-row">
+		<h1 id="logo"><a href="."><img src="images/logo.png" alt="Jihoměstské reality" width="202" height="45" /></a></h1>
+		
+		<div class="hamburger">
+			<a href="javascript:void(0);"><span class="lines"></span></a>
+		</div>
+		
+		<div id="nav-wrap">
+			<div class="hamburger">
+				<a href="javascript:void(0);"><span class="lines"></span></a>
+			</div>
+
+			<ul id="main-nav" class="reset">
+				<li><a href="." class="active">Hledáte?<span></span></a></li>
+				<li><a href="nabizim.php">Nabízíte?<span></span></a></li>
+				<li><a href="odhady.php">Odhady<span></span></a></li>
+				<li><a href="financovani.php">Financování<span></span></a></li>
+				<li><a href="kontakty.php">Kontakty<span></span></a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- /header -->
+
+<div id="content">
+	<div class="section main-row">
+		<div id="col-content">
+			<div id="map" class="homepage-map js-large-map">
+				<div class="js-map-canvas" id="map-canvas"></div>
+				<a href="javascript:void(0);" class="js-map-button" data-swap-text="Zmenšit mapu">Zvětšit mapu</a>
+			</div>
+
+									
+				<h2 class="hide-mobile">Výsledky hledání</h2>
+	
+										
+					<div class="p-list">
+						<ul class="reset">
+								
+															
+								<li class="item">
+									<div class="image">
+																					<span class="img"><img src="foto/thumbnails/thumb_1_321_0_32_1.jpg" alt="PRODEJ BYTU 3+1/L" /></span>
+																			</div>
+			
+									<div class="headline">
+										<h2>PRODEJ BYTU 3+1/L</h2>
+										<p class="meta">Kurčatovova, Petrovice</p>
+									</div>
+			
+									<div class="article">
+										<p>Prodej bytové jednotky 3+1 s lodžií (zaskleno), užitná plocha jednotky 76m<sup>2</sup>, v osobním vlastnictví.</p>									</div>
+			
+									<div class="bottom">
+										Evidenční číslo: <span>1552</span>
+									</div>
+									
+																			<span class="sold">PRODÁNO 3.150.000 Kč (9/2016)</span>
+																		
+									<a href="/detail/1552-prodej-bytu-3+1-76m-kurcatovova-praha-10-petrovice" class="link">PRODEJ BYTU 3+1/L</a>
+								</li>
+							
+														
+						</ul>
+					</div><!-- /p-list -->
+					
+<!--
+					<div class="pager">
+						<ul class="reset">
+							<li><a href="#" class="prev">&lt;</a></li>
+							<li><span>1</span></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#" class="next">&gt;</a></li>
+		
+						</ul>
+					</div>
+-->
+					
+									
+							
+
+		</div><!-- /col-content -->
+
+		<div id="aside" data-intent data-in-mobile-after="#map" data-in-tablet-after="#map" data-in-standard-after="#col-content">
+			
+			<div class="side-form-hidden">				
+				<a href="javascript:void(0);" class="side-form-trigger">Upravit výběr</a>				
+				<div class="side-form home-form js-show-hidden side-form-open">
+					<form action="." action="get">
+						<div class="form-section">
+							
+							<p class="headline">Hledáte</p>
+							
+							<ul class="list reset js-main-choice">
+								<li>
+									<label><input type="checkbox" name="prodej_pronajem[]" value="1" id="prodej_pronajem_1" checked="checked" />Prodej</label>
+								<li>
+									<label><input type="checkbox" name="prodej_pronajem[]" value="2" id="prodej_pronajem_2" />Pronájem</label>				
+								</li>
+							</ul>
+						</div><!-- /form-section -->
+						
+						<a href="javascript:void(0);" class="js-trigger">Vybrat dispozici a lokalitu</a>
+						
+						<div class="jsHide">
+							<div class="form-section">
+								<p class="headline">Dispozice</p>
+		
+								<ul class="list reset">
+									
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="1" id="dispozice_1" />1+kk</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="2" id="dispozice_2" />1+1</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="3" id="dispozice_3" />2+kk</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="4" id="dispozice_4" />2+1</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="5" id="dispozice_5" />3+kk</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="6" id="dispozice_6" />3+1</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="7" id="dispozice_7" />4+kk</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="8" id="dispozice_8" />4+1</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="9" id="dispozice_9" />5+kk</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="10" id="dispozice_10" />5+1</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="13" id="dispozice_13" />6+kk</label>
+										</li>
+										
+																		
+										<li>
+											<label><input type="checkbox" name="dispozice[]" value="14" id="dispozice_14" />6+1</label>
+										</li>
+										
+																		
+								</ul>
+							</div><!-- /form-section -->
+		
+							<div class="form-section">
+								<p class="headline">Lokalita</p>
+		
+								<div class="row">
+									<select id="metro" name="metro">
+										<option value="">Vyberte městskou část</option>
+										<option value="Roztyly">Poblíž metra Roztyly</option>
+										<option value="Chodov">Poblíž metra Chodov</option>
+										<option value="Opatov">Poblíž metra Opatov</option>
+										<option value="Háje">Poblíž metra Háje</option>
+										<option value="Petrovice">Petrovice</option>
+										<option value="Horní Měcholupy">Horní Měcholupy</option>
+									</select>
+								</div>
+		
+								<div class="row">
+									<div class="multiselect">
+										<div class="label">
+											<span class="text" data-default-text="Vyberte ulici">Vyberte ulici</span>
+											<span class="arrow"></span>
+										</div>
+		
+										<div class="option">
+											
+											<ul class="items">
+											
+												</ul><ul class="items">									
+																							
+													<li>
+														<label>
+															Anny Drabíkové															<input type="checkbox" name="ulice[]" value="Anny Drabíkové" id="ulice_Anny Drabíkové" data-value="Anny Drabíkové"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Augustinova															<input type="checkbox" name="ulice[]" value="Augustinova" id="ulice_Augustinova" data-value="Augustinova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Babákova															<input type="checkbox" name="ulice[]" value="Babákova" id="ulice_Babákova" data-value="Babákova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Bachova															<input type="checkbox" name="ulice[]" value="Bachova" id="ulice_Bachova" data-value="Bachova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Bajkonurská															<input type="checkbox" name="ulice[]" value="Bajkonurská" id="ulice_Bajkonurská" data-value="Bajkonurská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Bělčická															<input type="checkbox" name="ulice[]" value="Bělčická" id="ulice_Bělčická" data-value="Bělčická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Benkova															<input type="checkbox" name="ulice[]" value="Benkova" id="ulice_Benkova" data-value="Benkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Běžná															<input type="checkbox" name="ulice[]" value="Běžná" id="ulice_Běžná" data-value="Běžná"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Blatenská															<input type="checkbox" name="ulice[]" value="Blatenská" id="ulice_Blatenská" data-value="Blatenská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Boháčova															<input type="checkbox" name="ulice[]" value="Boháčova" id="ulice_Boháčova" data-value="Boháčova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Bohúňova															<input type="checkbox" name="ulice[]" value="Bohúňova" id="ulice_Bohúňova" data-value="Bohúňova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Boloňská															<input type="checkbox" name="ulice[]" value="Boloňská" id="ulice_Boloňská" data-value="Boloňská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Borošova															<input type="checkbox" name="ulice[]" value="Borošova" id="ulice_Borošova" data-value="Borošova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Brandlova															<input type="checkbox" name="ulice[]" value="Brandlova" id="ulice_Brandlova" data-value="Brandlova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Brechtova															<input type="checkbox" name="ulice[]" value="Brechtova" id="ulice_Brechtova" data-value="Brechtova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Brodského															<input type="checkbox" name="ulice[]" value="Brodského" id="ulice_Brodského" data-value="Brodského"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Cyprichova															<input type="checkbox" name="ulice[]" value="Cyprichova" id="ulice_Cyprichova" data-value="Cyprichova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Čenětická															<input type="checkbox" name="ulice[]" value="Čenětická" id="ulice_Čenětická" data-value="Čenětická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Dědinova															<input type="checkbox" name="ulice[]" value="Dědinova" id="ulice_Dědinova" data-value="Dědinova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Divišovská															<input type="checkbox" name="ulice[]" value="Divišovská" id="ulice_Divišovská" data-value="Divišovská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Donovalská															<input type="checkbox" name="ulice[]" value="Donovalská" id="ulice_Donovalská" data-value="Donovalská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Doubravická															<input type="checkbox" name="ulice[]" value="Doubravická" id="ulice_Doubravická" data-value="Doubravická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Dvorecké náměstí															<input type="checkbox" name="ulice[]" value="Dvorecké náměstí" id="ulice_Dvorecké náměstí" data-value="Dvorecké náměstí"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Ellnerové															<input type="checkbox" name="ulice[]" value="Ellnerové" id="ulice_Ellnerové" data-value="Ellnerové"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Emilie Hyblerové															<input type="checkbox" name="ulice[]" value="Emilie Hyblerové" id="ulice_Emilie Hyblerové" data-value="Emilie Hyblerové"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Filipova															<input type="checkbox" name="ulice[]" value="Filipova" id="ulice_Filipova" data-value="Filipova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Frostova															<input type="checkbox" name="ulice[]" value="Frostova" id="ulice_Frostova" data-value="Frostova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Gregorova															<input type="checkbox" name="ulice[]" value="Gregorova" id="ulice_Gregorova" data-value="Gregorova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Hekrova															<input type="checkbox" name="ulice[]" value="Hekrova" id="ulice_Hekrova" data-value="Hekrova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Hlavatého															<input type="checkbox" name="ulice[]" value="Hlavatého" id="ulice_Hlavatého" data-value="Hlavatého"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Hněvkovského															<input type="checkbox" name="ulice[]" value="Hněvkovského" id="ulice_Hněvkovského" data-value="Hněvkovského"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Horčičkova															<input type="checkbox" name="ulice[]" value="Horčičkova" id="ulice_Horčičkova" data-value="Horčičkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Horní Měcholupy															<input type="checkbox" name="ulice[]" value="Horní Měcholupy" id="ulice_Horní Měcholupy" data-value="Horní Měcholupy"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Hornomlýnská															<input type="checkbox" name="ulice[]" value="Hornomlýnská" id="ulice_Hornomlýnská" data-value="Hornomlýnská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Hrabákova															<input type="checkbox" name="ulice[]" value="Hrabákova" id="ulice_Hrabákova" data-value="Hrabákova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Hráského															<input type="checkbox" name="ulice[]" value="Hráského" id="ulice_Hráského" data-value="Hráského"  />				
+														</label>
+													</li>
+													
+												</ul><ul class="items">									
+																							
+													<li>
+														<label>
+															Hrdličkova															<input type="checkbox" name="ulice[]" value="Hrdličkova" id="ulice_Hrdličkova" data-value="Hrdličkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Hrudičkova															<input type="checkbox" name="ulice[]" value="Hrudičkova" id="ulice_Hrudičkova" data-value="Hrudičkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Hrusická															<input type="checkbox" name="ulice[]" value="Hrusická" id="ulice_Hrusická" data-value="Hrusická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Hviezdoslavova															<input type="checkbox" name="ulice[]" value="Hviezdoslavova" id="ulice_Hviezdoslavova" data-value="Hviezdoslavova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Chalupkova															<input type="checkbox" name="ulice[]" value="Chalupkova" id="ulice_Chalupkova" data-value="Chalupkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Chodovecké náměstí															<input type="checkbox" name="ulice[]" value="Chodovecké náměstí" id="ulice_Chodovecké náměstí" data-value="Chodovecké náměstí"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Jabloňová															<input type="checkbox" name="ulice[]" value="Jabloňová" id="ulice_Jabloňová" data-value="Jabloňová"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Janouchova															<input type="checkbox" name="ulice[]" value="Janouchova" id="ulice_Janouchova" data-value="Janouchova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Janovská															<input type="checkbox" name="ulice[]" value="Janovská" id="ulice_Janovská" data-value="Janovská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Jarníkova															<input type="checkbox" name="ulice[]" value="Jarníkova" id="ulice_Jarníkova" data-value="Jarníkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Jašíkova															<input type="checkbox" name="ulice[]" value="Jašíkova" id="ulice_Jašíkova" data-value="Jašíkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Jažlovická															<input type="checkbox" name="ulice[]" value="Jažlovická" id="ulice_Jažlovická" data-value="Jažlovická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Jeřábkova															<input type="checkbox" name="ulice[]" value="Jeřábkova" id="ulice_Jeřábkova" data-value="Jeřábkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Jivenská															<input type="checkbox" name="ulice[]" value="Jivenská" id="ulice_Jivenská" data-value="Jivenská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Jurkovičova															<input type="checkbox" name="ulice[]" value="Jurkovičova" id="ulice_Jurkovičova" data-value="Jurkovičova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															K Netlukám															<input type="checkbox" name="ulice[]" value="K Netlukám" id="ulice_K Netlukám" data-value="K Netlukám"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Kaplická															<input type="checkbox" name="ulice[]" value="Kaplická" id="ulice_Kaplická" data-value="Kaplická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Káranská															<input type="checkbox" name="ulice[]" value="Káranská" id="ulice_Káranská" data-value="Káranská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Ke Kateřinkám															<input type="checkbox" name="ulice[]" value="Ke Kateřinkám" id="ulice_Ke Kateřinkám" data-value="Ke Kateřinkám"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Ke stáčírně															<input type="checkbox" name="ulice[]" value="Ke stáčírně" id="ulice_Ke stáčírně" data-value="Ke stáčírně"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Ke Škole															<input type="checkbox" name="ulice[]" value="Ke Škole" id="ulice_Ke Škole" data-value="Ke Škole"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Klapálkova															<input type="checkbox" name="ulice[]" value="Klapálkova" id="ulice_Klapálkova" data-value="Klapálkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Klírova															<input type="checkbox" name="ulice[]" value="Klírova" id="ulice_Klírova" data-value="Klírova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Kloboučnická															<input type="checkbox" name="ulice[]" value="Kloboučnická" id="ulice_Kloboučnická" data-value="Kloboučnická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Kloboukova															<input type="checkbox" name="ulice[]" value="Kloboukova" id="ulice_Kloboukova" data-value="Kloboukova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Kloknerova															<input type="checkbox" name="ulice[]" value="Kloknerova" id="ulice_Kloknerova" data-value="Kloknerova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Konstantinova															<input type="checkbox" name="ulice[]" value="Konstantinova" id="ulice_Konstantinova" data-value="Konstantinova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Kosmická															<input type="checkbox" name="ulice[]" value="Kosmická" id="ulice_Kosmická" data-value="Kosmická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Kropáčkova															<input type="checkbox" name="ulice[]" value="Kropáčkova" id="ulice_Kropáčkova" data-value="Kropáčkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Krupská															<input type="checkbox" name="ulice[]" value="Krupská" id="ulice_Krupská" data-value="Krupská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Křejpského															<input type="checkbox" name="ulice[]" value="Křejpského" id="ulice_Křejpského" data-value="Křejpského"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Kukelská															<input type="checkbox" name="ulice[]" value="Kukelská" id="ulice_Kukelská" data-value="Kukelská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Kupeckého															<input type="checkbox" name="ulice[]" value="Kupeckého" id="ulice_Kupeckého" data-value="Kupeckého"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Kurčatovova															<input type="checkbox" name="ulice[]" value="Kurčatovova" id="ulice_Kurčatovova" data-value="Kurčatovova"  checked="checked" />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Květnového vítězství															<input type="checkbox" name="ulice[]" value="Květnového vítězství" id="ulice_Květnového vítězství" data-value="Květnového vítězství"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Láskova															<input type="checkbox" name="ulice[]" value="Láskova" id="ulice_Láskova" data-value="Láskova"  />				
+														</label>
+													</li>
+													
+												</ul><ul class="items">									
+																							
+													<li>
+														<label>
+															Lečkova															<input type="checkbox" name="ulice[]" value="Lečkova" id="ulice_Lečkova" data-value="Lečkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Ledvinova															<input type="checkbox" name="ulice[]" value="Ledvinova" id="ulice_Ledvinova" data-value="Ledvinova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Leopoldova															<input type="checkbox" name="ulice[]" value="Leopoldova" id="ulice_Leopoldova" data-value="Leopoldova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Litvínovská															<input type="checkbox" name="ulice[]" value="Litvínovská" id="ulice_Litvínovská" data-value="Litvínovská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Lomená															<input type="checkbox" name="ulice[]" value="Lomená" id="ulice_Lomená" data-value="Lomená"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Loosova															<input type="checkbox" name="ulice[]" value="Loosova" id="ulice_Loosova" data-value="Loosova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Lovosická															<input type="checkbox" name="ulice[]" value="Lovosická" id="ulice_Lovosická" data-value="Lovosická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Machkova															<input type="checkbox" name="ulice[]" value="Machkova" id="ulice_Machkova" data-value="Machkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Majerského															<input type="checkbox" name="ulice[]" value="Majerského" id="ulice_Majerského" data-value="Majerského"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Malebná															<input type="checkbox" name="ulice[]" value="Malebná" id="ulice_Malebná" data-value="Malebná"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Markušova															<input type="checkbox" name="ulice[]" value="Markušova" id="ulice_Markušova" data-value="Markušova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Matúškova															<input type="checkbox" name="ulice[]" value="Matúškova" id="ulice_Matúškova" data-value="Matúškova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Mejstříkova															<input type="checkbox" name="ulice[]" value="Mejstříkova" id="ulice_Mejstříkova" data-value="Mejstříkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Mendelova															<input type="checkbox" name="ulice[]" value="Mendelova" id="ulice_Mendelova" data-value="Mendelova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Metodějova															<input type="checkbox" name="ulice[]" value="Metodějova" id="ulice_Metodějova" data-value="Metodějova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Michelská															<input type="checkbox" name="ulice[]" value="Michelská" id="ulice_Michelská" data-value="Michelská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Michnova															<input type="checkbox" name="ulice[]" value="Michnova" id="ulice_Michnova" data-value="Michnova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Mikulova															<input type="checkbox" name="ulice[]" value="Mikulova" id="ulice_Mikulova" data-value="Mikulova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Mladenovova															<input type="checkbox" name="ulice[]" value="Mladenovova" id="ulice_Mladenovova" data-value="Mladenovova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Modenská															<input type="checkbox" name="ulice[]" value="Modenská" id="ulice_Modenská" data-value="Modenská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Modletická															<input type="checkbox" name="ulice[]" value="Modletická" id="ulice_Modletická" data-value="Modletická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Na Kampě															<input type="checkbox" name="ulice[]" value="Na Kampě" id="ulice_Na Kampě" data-value="Na Kampě"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Na Křečku															<input type="checkbox" name="ulice[]" value="Na Křečku" id="ulice_Na Křečku" data-value="Na Křečku"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Na sádce															<input type="checkbox" name="ulice[]" value="Na sádce" id="ulice_Na sádce" data-value="Na sádce"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Nad přehradou															<input type="checkbox" name="ulice[]" value="Nad přehradou" id="ulice_Nad přehradou" data-value="Nad přehradou"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Neapolská															<input type="checkbox" name="ulice[]" value="Neapolská" id="ulice_Neapolská" data-value="Neapolská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Nechvílova															<input type="checkbox" name="ulice[]" value="Nechvílova" id="ulice_Nechvílova" data-value="Nechvílova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Oblouková															<input type="checkbox" name="ulice[]" value="Oblouková" id="ulice_Oblouková" data-value="Oblouková"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Ohradní															<input type="checkbox" name="ulice[]" value="Ohradní" id="ulice_Ohradní" data-value="Ohradní"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Petýrkova															<input type="checkbox" name="ulice[]" value="Petýrkova" id="ulice_Petýrkova" data-value="Petýrkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Plickova															<input type="checkbox" name="ulice[]" value="Plickova" id="ulice_Plickova" data-value="Plickova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Pod Šmukýřkou															<input type="checkbox" name="ulice[]" value="Pod Šmukýřkou" id="ulice_Pod Šmukýřkou" data-value="Pod Šmukýřkou"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Podjavorinské															<input type="checkbox" name="ulice[]" value="Podjavorinské" id="ulice_Podjavorinské" data-value="Podjavorinské"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Přeštická															<input type="checkbox" name="ulice[]" value="Přeštická" id="ulice_Přeštická" data-value="Přeštická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Přistoupimská															<input type="checkbox" name="ulice[]" value="Přistoupimská" id="ulice_Přistoupimská" data-value="Přistoupimská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Radimovická															<input type="checkbox" name="ulice[]" value="Radimovická" id="ulice_Radimovická" data-value="Radimovická"  />				
+														</label>
+													</li>
+													
+												</ul><ul class="items">									
+																							
+													<li>
+														<label>
+															Rakovského															<input type="checkbox" name="ulice[]" value="Rakovského" id="ulice_Rakovského" data-value="Rakovského"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Rašova															<input type="checkbox" name="ulice[]" value="Rašova" id="ulice_Rašova" data-value="Rašova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Ravennská															<input type="checkbox" name="ulice[]" value="Ravennská" id="ulice_Ravennská" data-value="Ravennská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Remízková															<input type="checkbox" name="ulice[]" value="Remízková" id="ulice_Remízková" data-value="Remízková"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Rezlerova															<input type="checkbox" name="ulice[]" value="Rezlerova" id="ulice_Rezlerova" data-value="Rezlerova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Rybná															<input type="checkbox" name="ulice[]" value="Rybná" id="ulice_Rybná" data-value="Rybná"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Samohelova															<input type="checkbox" name="ulice[]" value="Samohelova" id="ulice_Samohelova" data-value="Samohelova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Sedlčanská															<input type="checkbox" name="ulice[]" value="Sedlčanská" id="ulice_Sedlčanská" data-value="Sedlčanská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Severní I															<input type="checkbox" name="ulice[]" value="Severní I" id="ulice_Severní I" data-value="Severní I"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Severozápadní III															<input type="checkbox" name="ulice[]" value="Severozápadní III" id="ulice_Severozápadní III" data-value="Severozápadní III"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Schulhoffova															<input type="checkbox" name="ulice[]" value="Schulhoffova" id="ulice_Schulhoffova" data-value="Schulhoffova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Sněženková															<input type="checkbox" name="ulice[]" value="Sněženková" id="ulice_Sněženková" data-value="Sněženková"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Starobylá															<input type="checkbox" name="ulice[]" value="Starobylá" id="ulice_Starobylá" data-value="Starobylá"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Steinerova															<input type="checkbox" name="ulice[]" value="Steinerova" id="ulice_Steinerova" data-value="Steinerova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Střížkovská															<input type="checkbox" name="ulice[]" value="Střížkovská" id="ulice_Střížkovská" data-value="Střížkovská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Sulanského															<input type="checkbox" name="ulice[]" value="Sulanského" id="ulice_Sulanského" data-value="Sulanského"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Svojšovická															<input type="checkbox" name="ulice[]" value="Svojšovická" id="ulice_Svojšovická" data-value="Svojšovická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Šalounova															<input type="checkbox" name="ulice[]" value="Šalounova" id="ulice_Šalounova" data-value="Šalounova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Šternovská															<input type="checkbox" name="ulice[]" value="Šternovská" id="ulice_Šternovská" data-value="Šternovská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Štichova															<input type="checkbox" name="ulice[]" value="Štichova" id="ulice_Štichova" data-value="Štichova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Štúrova															<input type="checkbox" name="ulice[]" value="Štúrova" id="ulice_Štúrova" data-value="Štúrova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Tanvaldská															<input type="checkbox" name="ulice[]" value="Tanvaldská" id="ulice_Tanvaldská" data-value="Tanvaldská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Tatarkova															<input type="checkbox" name="ulice[]" value="Tatarkova" id="ulice_Tatarkova" data-value="Tatarkova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Tererova															<input type="checkbox" name="ulice[]" value="Tererova" id="ulice_Tererova" data-value="Tererova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Topolová															<input type="checkbox" name="ulice[]" value="Topolová" id="ulice_Topolová" data-value="Topolová"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Tuchorazská															<input type="checkbox" name="ulice[]" value="Tuchorazská" id="ulice_Tuchorazská" data-value="Tuchorazská"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															U Děkanky															<input type="checkbox" name="ulice[]" value="U Děkanky" id="ulice_U Děkanky" data-value="U Děkanky"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															U Pramene															<input type="checkbox" name="ulice[]" value="U Pramene" id="ulice_U Pramene" data-value="U Pramene"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Újezd															<input type="checkbox" name="ulice[]" value="Újezd" id="ulice_Újezd" data-value="Újezd"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															V Jezírkách															<input type="checkbox" name="ulice[]" value="V Jezírkách" id="ulice_V Jezírkách" data-value="V Jezírkách"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Valentova															<input type="checkbox" name="ulice[]" value="Valentova" id="ulice_Valentova" data-value="Valentova"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Vejvanovského															<input type="checkbox" name="ulice[]" value="Vejvanovského" id="ulice_Vejvanovského" data-value="Vejvanovského"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Vlasty Průchové															<input type="checkbox" name="ulice[]" value="Vlasty Průchové" id="ulice_Vlasty Průchové" data-value="Vlasty Průchové"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Zdiměřická															<input type="checkbox" name="ulice[]" value="Zdiměřická" id="ulice_Zdiměřická" data-value="Zdiměřická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Zlešická															<input type="checkbox" name="ulice[]" value="Zlešická" id="ulice_Zlešická" data-value="Zlešická"  />				
+														</label>
+													</li>
+													
+																					
+																							
+													<li>
+														<label>
+															Ženíškova															<input type="checkbox" name="ulice[]" value="Ženíškova" id="ulice_Ženíškova" data-value="Ženíškova"  />				
+														</label>
+													</li>
+													
+																								
+											</ul>
+		
+											<div class="btns">
+												<input type="button" value="Použít výběr" class="close" />
+											</div>
+		
+										</div><!-- /option -->
+		
+									</div><!-- /multiselect -->
+								</div>
+							</div><!-- /form-section -->
+		
+							<div class="btns">
+								<input type="submit" value="Zobrazit" />
+							</div>
+						</div>
+					</form>
+				</div><!-- /side-form -->
+			
+			</div>
+		</div><!-- /aside -->
+
+	</div>
+</div><!-- /content -->
+
+<div id="sub-footer">
+	<div class="section main-row">
+		<div class="col col-1n">
+			<div class="logo"></div>
+		</div>
+
+		<div class="col col-2n">
+			<p class="ico ico-1 head">Krejnická 2021/1 (OC Chrpa) <br />148 00 Praha 11</p>
+			<div class="txt">
+				<p>Po - Pá 8:30 - 19:00 <br />So 9:00 - 13:00 <br />Neděle dle dohody</p>
+			</div>
+		</div>
+		
+		<div class="col col-2n col-2n-b">
+			<p class="ico ico-1 head">Opatovská 1753/12 <br />149 00 Praha 11</p>
+			<div class="txt">
+				<p>Po - Pá 8:30 - 18:00 <br />So 9:00 - 13:00 <br />Neděle dle dohody</p>
+			</div>
+		</div>
+
+		<div class="col col-3n">
+			<p class="ico ico-2"><span><a href="tel:+420607001188">607 00 11 88</a></span> <br /><a href="mailto:info@jihomestskereality.cz" class="link">info@jihomestskereality.cz</a></p>
+
+			<div class="social">
+				<ul class="reset">
+					<li>
+						<div class="info"></div>
+						<a href="https://www.facebook.com/JihomestskeReality" class="fb" target="_blank">Facebook</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</div><!-- /sub-footer -->
+
+<div id="footer">
+	<div class="section main-row">
+		<div class="left">
+			<p>Copyright &copy; 2017 Jihoměstské reality s.r.o.</p>
+		</div>
+		
+		<div class="right">
+			<p><span class="txt">Návrh a tvorba webu</span> <a href="http://www.vaclavbrozek.cz/" class="f-link">Václav Brožek<span></span></a></p>
+		</div>
+	
+	</div>
+</div><!-- /footer -->
+
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/compiled.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&v=3"></script>
+<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript">
+$(function () {
+
+// Google map 
+if ($('#map').length) {
+	
+	$('#map-canvas').show(function() {
+        initMap();
+    });
+}
+
+}); //End document ready
+
+// Google map
+var map;
+function initMap() {
+	var mapOptions = {
+		scrollwheel: false,
+		center: new google.maps.LatLng(50.029854,14.508862),
+		zoom: 14,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+	var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+	var KmlLayer = new google.maps.KmlLayer(
+		'http://www.jihomestskereality.cz/kml.php?prodej_pronajem%5B%5D=1&metro=&ulice%5B%5D=Kur%C4%8Datovova&nocache=' + (new Date()).valueOf(), {
+		  map: map,
+		  preserveViewport: true
+	});
+	google.maps.event.addListener(KmlLayer, 'click', function(kmlEvent) {
+		kmlEvent.featureData.description = kmlEvent.featureData.description.replace("_self");
+	}); 
+}
+</script>
+
+
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="/js/selectivizr.min.js"></script>
+<![endif]-->
+
+</body>
+</html>
