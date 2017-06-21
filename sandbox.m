@@ -1,4 +1,5 @@
 source "ifelse.m" 
+epsilon = 1e-6
   
 %%%%%
 % function definitions
@@ -29,7 +30,7 @@ prices = sold(:,2);
 data =  prices ./ areas;  % we take one feature which is price-2-area ratio
 
 probabilities = arrayfun(f_probability, data, mi, sigma_square);
-anomalies = sold(find(arrayfun(@(p) ifelse(p <= 1e-7, 1, 0), probabilities)),:)
+anomalies = sold(find(arrayfun(@(p) ifelse(p <= epsilon, 1, 0), probabilities)),:);
 
 plot(areas, prices, ".3", "markersize", 10);
 hold on;
