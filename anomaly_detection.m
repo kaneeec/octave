@@ -45,6 +45,6 @@ plot(sold(:,1), sold(:,2), ".5", "markersize", 10);
 hold on;
 plot(anomalies(:,1), anomalies(:,2), "@1", "markersize", 20);
 for i = 1 : size(anomalies,1)
-    text(anomalies(i,1), anomalies(i,2), ['(' num2str(anomalies(i,1)) ',' num2str(anomalies(i,2)) ',' num2str(anomalies(i,3)) ')'], "fontweight", "bold");
+    text(anomalies(i,1), anomalies(i,2), ['[' num2str(anomalies(i,1)) 'm2, ' num2str(anomalies(i,2)) 'Kc, ' num2str(anomalies(i,3)) 'm <> centre]'], "fontweight", "bold");
 end
 
