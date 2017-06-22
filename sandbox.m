@@ -1,5 +1,9 @@
-a = [1 ; 2 ; 3]
-b = [4 ; 5 ; 6]
-c = {a b}
+load("switch_data");
 
-cell2mat(c)
+time = switch_data(2:end, 1);
+in_deltas = diff(switch_data(:, 4:51));
+out_deltas = diff(switch_data(:, 59:106));
+
+plot(time, in_deltas(:, 5));
+
+diff([1 2 3; 2 4 7; 4 8 11])
