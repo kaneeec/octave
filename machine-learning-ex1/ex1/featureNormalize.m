@@ -28,7 +28,8 @@ sigma = zeros(1, size(X, 2));
 
 for i = 1:size(X, 2)
   feat_mu = mean(X(:,i));
-  feat_sigma = max(X(:,i)) - min(X(:,i));
+%  feat_sigma = max(X(:,i)) - min(X(:,i));
+  feat_sigma = std(X(:,i))
   
   mu(i) = feat_mu;
   sigma(i) = feat_sigma;
